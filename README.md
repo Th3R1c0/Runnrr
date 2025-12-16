@@ -7,8 +7,6 @@
 
 The system models real-world walking networks from OpenStreetMap as weighted graphs and applies classical shortest-path algorithms to search for loops that closely match a target distance while avoiding unnecessary elevation changes.
 
-
-
 ## ⚙️ Highlight: Dijkstra's Algorithm
 We use Dijkstra’s Algorithm to find the optimal route.
 
@@ -22,3 +20,5 @@ Right now, we are strictly minimizing **distance**. We set `weight="length"`.
 The helper function `calculate_path_length` sums the 'length' attribute of every edge traversed in the resulting list of nodes.
 
 Currently, this is just "Point A to Point B". next we will implement a loop and other factors into our code to satisfy requirements.
+
+*currently in progress*
