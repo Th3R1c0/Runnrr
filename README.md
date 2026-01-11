@@ -7,6 +7,8 @@
 
 The system models real-world walking networks from OpenStreetMap as weighted graphs and applies classical shortest-path algorithms to search for loops that closely match a target distance while avoiding unnecessary elevation changes.
 
+![Runnrr Example](example.png)
+
 ---
 
 ### Graph Modeling
