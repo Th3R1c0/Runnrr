@@ -31,4 +31,3 @@ Currently, this is just "Point A to Point B". next we will implement a loop and 
 challenges: 
 Sometimes, "burning the bridges" traps the runner at the midpoint if the destination is a dead-end (cul-de-sac). We need robust error handling `nx.NetworkXNoPath` to retry with different midpoints if that happens.
 
-*currently in progress*
